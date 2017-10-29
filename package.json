@@ -13,5 +13,8 @@
     "express": "^4.16.2",
     "pm2": "^2.7.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines": {
+    "node": "8.8.1"
+  }
 }
