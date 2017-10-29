@@ -2,11 +2,16 @@
   "name": "watchlist-generator",
   "version": "1.0.0",
   "description": "tradingview.com watchlist generator",
-  "main": "app.js",
+  "main": "index.js",
   "repository": "git@github.com:dstodolny/watchlist-generator.git",
   "author": "Dominik Stodolny <dom@dmk.st>",
   "license": "MIT",
+  "scripts": {
+    "dev": "pm2 start index.js --watch"
+  },
   "dependencies": {
-    "express": "^4.16.2"
-  }
+    "express": "^4.16.2",
+    "pm2": "^2.7.2"
+  },
+  "devDependencies": {}
 }
