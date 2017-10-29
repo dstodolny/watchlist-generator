@@ -4,7 +4,7 @@ const config = require('./config');
 
 const app = express();
 
-app.get('/', (req, res) => {
+app.get('/bittrex', (req, res) => {
   const url = 'https://bittrex.com/api/v1.1/public/getmarkets';
 
   request(url, (error, response, body) => {
